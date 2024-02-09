@@ -12,4 +12,6 @@
   <author email="liuzhufu@dobot.cc">Liu Zhufu</author> -->
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>libqt5-serialport</build_depend>
+  <build_depend>libqt5-serialport-dev</build_depend>
 </package>
