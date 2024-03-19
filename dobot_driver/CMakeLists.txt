@@ -24,3 +24,7 @@ add_dependencies(DobotServer ${catkin_EXPORTED_TARGETS})
 add_executable(controller src/controller.cpp)
 target_link_libraries(controller ${catkin_LIBRARIES})
 add_dependencies(controller ${catkin_EXPORTED_TARGETS})
+
+add_executable(controller_CP_JOG src/controller_CP_JOG.cpp)
+target_link_libraries(controller_CP_JOG ${catkin_LIBRARIES})
+add_dependencies(controller_CP_JOG ${catkin_EXPORTED_TARGETS})
